@@ -230,7 +230,7 @@ module ActionView
   module Helpers
     class FormBuilder
       def calendar_date_select(method, options = {})
-        calendar_date_select(method, options.merge(:object => @object))
+        @template.calendar_date_select(@object_name, method, options.merge(:object => @object))
       end
     end
   end
