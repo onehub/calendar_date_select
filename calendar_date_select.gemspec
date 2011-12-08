@@ -24,7 +24,6 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "calendar_date_select.gemspec",
-     "init.rb",
      "js_test/functional/.tmp_cds_test.html",
      "js_test/functional/cds_test.html",
      "js_test/functional/format_iso_date_test.html",
